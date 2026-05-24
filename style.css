@@ -57,7 +57,7 @@ label {
 
 }
 input,select {
-    width: 50%;
+    width: 100%;
     position: relative;
     border-radius: 12px;
     padding: 20px 14px;
@@ -89,3 +89,16 @@ button:hover{
     transform: skewY(4deg );
 }
 
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 40px 20px;
+    }
+    .heading h1 {
+        font-size: 2em;
+    }
+    input, select {
+        width: 100%;
+    }
+    
+}
